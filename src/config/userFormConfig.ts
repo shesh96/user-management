@@ -2,6 +2,7 @@ import type { FormFieldConfig } from "../types";
 import { z } from "zod";
 
 // This configuration allows adding new fields without modifying the UI code.
+
 // Just add a new object here, and the form will automatically update.
 export const userFormConfig: FormFieldConfig[] = [
     {
