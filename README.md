@@ -2,6 +2,8 @@
 
 A simple, extensible React-based CRUD application for managing user data. Built with Vite, React, TypeScript, and Tailwind CSS.
 
+**Live Application:** https://user-management-three-mu.vercel.app/
+
 ## Features
 
 - **User Management**: Create, Read, Update, and Delete users.
