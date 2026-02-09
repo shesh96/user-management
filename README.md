@@ -59,18 +59,6 @@ To add a new field (e.g., "Address") to the user form:
     ```
 3.  The form UI and validation schema will automatically update.
 
-## Deployment
-
-The application is a static site and can be deployed to any host (Vercel, Netlify, GitHub Pages).
-
-1.  **Build the project**:
-    ```bash
-    npm run build
-    ```
-2.  **Deploy the `dist` folder**.
-
-Since there is no backend server, the app works perfectly on any static hosting service.
-
 ## Design Decisions
 
 - **Configuration-Driven UI**: I used a config file (`userFormConfig.ts`) to generate the form. This makes it very easy to add new fields (like "Address") without touching the React components.
